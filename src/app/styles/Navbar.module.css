@@ -1,0 +1,17 @@
+.mainNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.leftNavPart {
+  color: red;
+}
+
+.centerNavPart {
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
