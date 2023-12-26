@@ -1,13 +1,14 @@
 import Link from "next/link";
 import React from "react";
 
-import styles from "../styles/Navbar.module.css";
+import styles from "../app/styles/ProductsHome.module.css";
 
 const Navbar = () => {
   return (
     <div className={styles.mainNavbar}>
       <div className={styles.leftNavPart}>ProductsShop</div>
       <div className={styles.centerNavPart}>
+        <Link href="/">basic</Link>
         <Link href="/home">Home</Link>
         <Link href="/about">About</Link>
       </div>

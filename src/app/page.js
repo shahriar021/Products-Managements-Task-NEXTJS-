@@ -1,10 +1,15 @@
-import Navbar from "./components/Navbar";
-import layout from "./layout";
+import Navbar from "../components/Navbar";
+import Products from "../components/Products";
 
-export default function Home() {
+import { getDataFromAPI } from "@/helpers/pages";
+
+export default async function Home() {
+  const products = await getDataFromAPI();
+
   return (
     <layout>
       <p>This is the main page content.</p>
+      <Products products={products} />
     </layout>
   );
 }
