@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-import styles from "../app/styles/ProductsHome.module.css";
+import styles from "../app/styles/Navbar.module.css";
 
 const Navbar = () => {
   return (

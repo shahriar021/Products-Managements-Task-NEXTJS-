@@ -6,10 +6,10 @@ const getDataFromAPI = async () => {
   return res.json();
 };
 
- const getSelectedProduct = async (id) => {
+const getSelectedProduct = async (id) => {
   const item = await getDataFromAPI();
   const selectedProduct = await item.find((product) => product.id === id);
   return selectedProduct;
 };
 
-export {getDataFromAPI,getSelectedProduct}
+export { getDataFromAPI, getSelectedProduct };

@@ -8,7 +8,7 @@ export default async function Home() {
 
   return (
     <layout>
-      <p>This is the main page content.</p>
+      <Navbar />
       <Products products={products} />
     </layout>
   );
