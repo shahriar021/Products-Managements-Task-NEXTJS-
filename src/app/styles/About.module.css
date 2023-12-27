@@ -1,0 +1,39 @@
+.aboutTitle {
+  font-size: 80px;
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutDescription {
+  font-size: 20px;
+  padding: 80px;
+  font-family: "Alumni Sans Collegiate One", sans-serif;
+  font-family: "Archivo", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Exo 2", sans-serif;
+}
+
+.aboutLowerPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.aboutFirstOfLowerPart {
+  padding: 20px;
+  color: red;
+  font-size: 50px;
+}
+
+.aboutLastOfLowerPart {
+  padding: 20px;
+  font-size: 20px;
+  width: 250px;
+  font-family: "Alumni Sans Collegiate One", sans-serif;
+  font-family: "Archivo", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Exo 2", sans-serif;
+}

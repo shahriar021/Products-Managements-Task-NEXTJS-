@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Products from "../components/Products";
+import styles from "../app/styles/Home.module.css";
 
 import { getDataFromAPI } from "@/helpers/pages";
 
@@ -8,8 +9,7 @@ export default async function Home() {
 
   return (
     <layout>
-      <Navbar />
-      <Products products={products} />
+      <Products products={products} />,
     </layout>
   );
 }

@@ -1,0 +1,54 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 120px;
+  padding: 50 50 50 50;
+}
+
+.contactBody {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(218, 212, 212);
+}
+
+.contactMetarials {
+  font-size: 30px;
+}
+
+.inputBox {
+  display: block;
+  border: 1px solid black;
+}
+
+.contactUS {
+  font-size: 50px;
+  color: red;
+}
+
+.contactNmbr {
+  font-size: 30px;
+  color: black;
+}
+
+.contactEmail {
+  font-size: 30px;
+  color: black;
+}
+
+.contactADD {
+  font-size: 30px;
+  color: black;
+}

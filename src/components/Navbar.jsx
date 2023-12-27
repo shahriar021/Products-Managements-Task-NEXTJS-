@@ -6,13 +6,16 @@ import styles from "../app/styles/Navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.mainNavbar}>
-      <div className={styles.leftNavPart}>ProductsShop</div>
-      <div className={styles.centerNavPart}>
-        <Link href="/">basic</Link>
-        <Link href="/home">Home</Link>
-        <Link href="/about">About</Link>
+      <div className={styles.leftNavPart}>
+        <Link href="/">
+          <span className={styles.spanColor}>Products</span>Shop
+        </Link>
       </div>
-      <div className="rightNavPart">Profile</div>
+      <div className={styles.rightNavPart}>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
+      </div>
     </div>
   );
 };
